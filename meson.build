@@ -185,15 +185,12 @@ liburcu_bp_dep = dependency(
         'werror=false',
     ]
 )
-libbsd_dep = dependency(
-    'libbsd',
-    version: '>=0.9.0',
-    default_options: [
-        'default_library=static',
-        'warning_level=0',
-        'werror=false',
-    ]
-)
+
+libbsd_proj = subproject('libbsd')
+
+# Get the dependency from the subproject
+libbsd_dep = libbsd_proj.get_variable('libbsd_dep')
+
 liblz4_dep = dependency(
     'liblz4',
     version: ['>=1.9.2', '<2.0.0'],
