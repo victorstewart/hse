@@ -7,7 +7,7 @@ directory = libbsd-0.9.0
 
 source_url = https://github.com/victorstewart/libbsd/releases/download/0.9.0/libbsd-0.9.0.tar.gz
 source_filename = libbsd-0.9.0.tar.gz
-source_hash = 0527f0ea66c829bb2edbd39e3ffb5be8d94349ce34a52d4112203c23d6fae4fa
+source_hash = 32a6afa7d99eb80a94477c7099f74d7d07397891c124967d54b6d16876c52d62
 
 [provide]
 dependency_names = libbsd
