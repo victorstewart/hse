@@ -5,11 +5,9 @@
 [wrap-file]
 directory = libbsd-0.9.0
 
-source_url = https://libbsd.freedesktop.org/releases/libbsd-0.9.0.tar.xz
-source_filename = libbsd-0.9.0.tar.xz
-source_hash = 8a469afd1bab340992cf99e1e6b7ae4f4c54882d663d8a2c5ea52250617afb01
-
-patch_directory=libbsd
+source_url = https://github.com/victorstewart/libbsd/releases/download/0.9.0/libbsd-0.9.0.tar.gz
+source_filename = libbsd-0.9.0.tar.gz
+source_hash = 617b942718c6ea773a870883cac85b5cc3c6f90758b50cf20333a8316a440c2d
 
 [provide]
 dependency_names = libbsd
